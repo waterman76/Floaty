@@ -748,7 +748,7 @@ open class Floaty: UIView {
     circleLayer.removeFromSuperlayer()
     circleLayer.frame = CGRect(x: 0, y: 0, width: size, height: size)
     circleLayer.backgroundColor = buttonColor.cgColor
-    circleLayer.cornerRadius = size/2
+    circleLayer.cornerRadius = 6 //COZZO, original - size/2
     layer.addSublayer(circleLayer)
   }
   
